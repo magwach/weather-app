@@ -65,7 +65,7 @@ export default function Weather() {
                             <div className="weather-info">
                                 <div>
                                     <div>
-                                        <p className="wind">{data?.wind?.speed}</p>
+                                        <p className="wind">{data?.wind?.speed} mph</p>
                                         <p>Wind Speed</p>
                                     </div>
                                 </div>
